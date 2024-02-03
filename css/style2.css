@@ -1,0 +1,58 @@
+    .header{
+        text-align: center;
+        height: 300px;
+        padding: 12px;
+        background-image: url("src/img/fondo1.jpg" );
+    }
+    .avatar{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .user-name{
+        font-size: 18px;
+        margin-top: 14px;
+        color:rgb(40, 224, 43) ;
+    }
+    .listaenlace{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .listaenlace li{
+        display: inline-block;
+        margin: 5px;
+    }
+    a{
+        text-decoration: none;
+        color:red;
+    }
+    a:hover{
+        color: rgb(20, 233, 20);
+    }
+    .icon{
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-size: cover;
+    }
+    .email{
+        background-image: url("src/iconos/correo-electronico.png");
+    }
+    .catalogo{
+        background-image: url("src/iconos/folleto.png");
+    }
+    .registro{
+        background-image: url("src/iconos/registro.png");
+    }
+    .about{
+        padding: 10px;
+    }
+    .about h3{
+        color: blue;
+        font-size: 16px;
+    }
+    .about p{
+        color: blue;
+        font-size: 14px;
+    }

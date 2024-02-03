@@ -1,14 +1,21 @@
 * { box-sizing: border-box; }
 html, body {height: 100%;}
+
 body{
 	/*background-color: brown;*/
-    background-image: url("/src/img/fondo_essalud.jpeg");
+    /*background-image: url("/src/img/fondo_essalud.jpeg");*/
     margin: 13px 0 0 0;
+	text-align: center;
 	color: rgb(90, 212, 37);
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.text{
+	font-size: 2em;
+	text-shadow: 2px 5px #371b77;
 }
 .create{
 	background-color: red;
@@ -27,17 +34,23 @@ body{
 }
 .content{
 	width: 65%;
-	margin: 10px auto;
+	margin: 30px auto;
 }
 .form label{
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: bold;
 	display: block;
-	margin-bottom: 10px;
+	
 }
 .form input{
+	background-size: 60ex;
+	font-size: 60px;
 	display: block;
 	font-weight: bold;
 	border: none;
 	width: 100%;
+	margin-bottom: 30px;
 }
+
+
+

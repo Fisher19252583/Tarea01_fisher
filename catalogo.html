@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estyle3.css">
+    <title>CATALOGO DE SERVICIOS</title>
+  
+</head>
+<body>
+       
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <h1 class="text"> CATALOGO DE SERVICIOS</h1>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/cexterna.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">CONSULTA EXTERNA</p>
+                    <span class="precio">S/. 20</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/emergencia.jpeg" alt="">
+                    </div>
+                    <p class="descripcion" id>EMERGENCIA </p>
+                    <span class="precio">S/. 700</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/hospitalizacion.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">HOSPITALIZACION
+                    </p>
+                    <span class="precio">S/. 500</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/imagenologia.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">IMAGENOLOGIA (RAYOS X)</p>
+                    <span class="precio"> S/.300</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/laboratorio.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">LABORATORIO</p>
+                    <span class="precio">S/. 30</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/tomografia.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">TOMOGRAFIA</p>
+                    <span class="precio">S/. 1800</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/medicinacomplementaria.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">MEDICINA COMPLENTARIA</p>
+                    <span class="precio">S/. 500</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./src/img/tramitedocumentario.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">TRAMITE DOCUMENTARIO</p>
+                    <span class="precio"> Gratuito</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="./src/img/cexterna.jpeg" alt="" id="img">
+                <h2 id="modelo">CONSULTA EXTERNA</h2>
+                <p id="descripcion">M</p>
+
+                <span class="precio" id="precio">S/. 20</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

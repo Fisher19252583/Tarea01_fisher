@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fisher_Certus_EsSalud</title>
+    <style>
+        .header{
+        text-align: center;
+        height: 300px;
+        padding: 12px;
+        background-image: url("src/img/fondo1.jpg" );
+          }
+          .avatar{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .user-name{
+        font-size: 18px;
+        margin-top: 14px;
+        color:rgb(40, 224, 43) ;
+    }
+    .listaenlace{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .listaenlace li{
+        display: inline-block;
+        margin: 5px;
+    }
+    a{
+        text-decoration: none;
+        color:red;
+    }
+    a:hover{
+        color: rgb(20, 233, 20);
+    }
+    .icon{
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-size: cover;
+    }
+    .email{
+        background-image: url("src/iconos/correo-electronico.png");
+    }
+    .catalogo{
+        background-image: url("src/iconos/folleto.png");
+    }
+    .registro{
+        background-image: url("src/iconos/registro.png");
+    }
+    .about{
+        padding: 10px;
+    }
+    .about h3{
+        color: blue;
+        font-size: 16px;
+    }
+    .about p{
+        color: blue;
+        font-size: 14px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img 
+        class="avatar"
+        src="./src/img/perfil.jpeg"
+        />
+        <h1 class="user-name">Fisher Mendoza Alvarado</h1>
+    </div>
+    <ul class="listaenlace">
+        <li>
+            <i class="icon email"></i>
+          <a href="mailto:fisher.mendoza.alvarado@gmail.com">fisher.mendoza.alvarado@gmail.com</a>
+        </li>
+
+        <li>
+            <i class="icon catalogo"></i>
+            <a href="./catalogo.html">Catalogo</a>
+        </li>
+        <li>
+            <i class="icon registro"></i>
+            <a href="./registro.html">Registro</a>
+        </li>
+
+    </ul>
+    <div class="about">
+        <h3> Acerca de</h3>
+        <p>
+            Persona con excelente actitud y vocación de servicio, dinámica, paciente, puntual y
+            organizada, destacado por la habilidad de trabajo en equipo, capacidad de aprendizaje de
+            forma rápida y adaptabilidad.
+            Comprometido, autónomo y orientado a la obtención de resultados.
+        </p>
+    </div>
+    
+
+</body>
+</html>
